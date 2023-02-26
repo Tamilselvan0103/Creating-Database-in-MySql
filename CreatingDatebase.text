@@ -1,0 +1,16 @@
+-- create a table
+CREATE TABLE IMDB (
+  id INTEGER PRIMARY KEY,
+  image ,
+  MultipleGenre TEXT NOT NULL,
+  Review TEXT NOT NULL,
+  Skills TEXT NOT NULL,
+  Role TEXT NOT NULL
+  
+);
+-- insert some values
+INSERT INTO IMDB VALUES (1,'uploading','Drama', 5.5, 'Action', 'Hero' );
+INSERT INTO IMDB VALUES (2,'uploading','Action', 5.6, 'Fighter', 'Hero' );
+INSERT INTO IMDB VALUES (3,'uploading','Comdey', 5.7, 'Comdeian', 'Comdeian' );
+INSERT INTO IMDB VALUES (4,'uploading','Poetry', 5.8, 'Writer', 'Writer' );
+SELECT * FROM IMDB;
